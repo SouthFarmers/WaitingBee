@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Login" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@mipmap/ic_settings_black_24dp"
+            android:title="Settings" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_spread"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Spread the Word" />
+            <item
+                android:id="@+id/nav_rateus"
+                android:icon="@mipmap/ic_rate_review_black_24dp"
+                android:title="Rate Us on Playstore" />
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@mipmap/ic_info_black_24dp"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@mipmap/ic_feedback_black_24dp"
+                android:title="Feedback" />
+        </menu>
+    </item>
+
+</menu>
